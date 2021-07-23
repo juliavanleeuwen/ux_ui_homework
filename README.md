@@ -1,2 +1,4 @@
 # ux_ui_homework
-homework files
+homework files for Hw#17 
+
+- Julia Van Leeuwen :) 
