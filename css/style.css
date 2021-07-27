@@ -1,0 +1,140 @@
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+
+
+
+.navigation {
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    margin: 5px;
+}
+
+
+.topNav {
+    width: 73%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #333333; 
+    display: inline-block;
+    padding: 5px;
+}
+
+.topNav, li {
+    text-align: right;
+}
+
+.topNav li:hover {
+    color: #FEBE10;
+    text-decoration-line: underline;
+
+}
+
+.logo {
+    display: inline-block;
+    width: 23%;
+    padding: 1%;
+    align-items: flex-start;
+}
+
+.heroImg {
+    display: flex; 
+    height: 600px;
+    padding: 25px;
+
+}
+
+.heroText {
+    width: 45%;
+    float: left;
+    padding: 25px;
+    margin-left: 75px;
+    margin-top: 75px;
+
+}
+
+.contentImg {
+    width: 45%;
+    float: right;
+}
+
+
+
+h1 {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #FEBE10; 
+
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #333333; 
+    font-style: italic;
+}
+
+p {
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333; 
+}
+
+button {
+   font-size: 24px;
+   background-color: #FEBE10;
+   color: white;
+   padding: 15px;
+   border-radius: 10px 10px 10px 10px;
+   border-color: #FEBE10;
+   border-style: none;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+button:hover {
+    background-color: #333333;
+    
+}
+
+footer {
+    display: flex;
+    background-color: #FEBE10;
+    color: WHITE;
+    font-weight: 900;
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.footerNav, li {
+    text-align: center;
+}
+
+.footerNav li:hover {
+    color: #333333; 
+}
+
+.footerSocial {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+.copyright {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
